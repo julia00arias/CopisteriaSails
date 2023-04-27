@@ -21,7 +21,7 @@ module.exports.routes = {
 
   '/': { view: 'pages/impresoras' },
   'GET /impresoras' : 'ImpresorasController.getAll',
-  'GET /impresoras/:id' : 'ImpresorasController.getByID',
+  'PUT /impresoras/:id' : 'ImpresorasController.getByID',
 
   /***************************************************************************
   *                                                                          *
